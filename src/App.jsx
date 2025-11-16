@@ -58,9 +58,9 @@ function App() {
           //pega o elemento atual e o índice
           <li key={index}>
             {tarefa}
-            //ao clicar no botão, chama a função removerTarefa()
             <button onClick={() => removerTarefa(index)}>-</button>
           </li>
+          //ao clicar no botão, chama a função removerTarefa()
         ))}
       </ul>
     </div>
